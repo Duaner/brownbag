@@ -1,0 +1,98 @@
+[
+  {
+    "variation": "default",
+    "version": "sktwi1xtmkfgx8626",
+    "items": [
+      {}
+    ],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Sheet",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Dolor laboris incididunt anim. Qui ipsum tempor id cupidatat adipisicing voluptate fugiat officia minim ea ea eiusmod nulla exercitation.",
+          "spans": []
+        }
+      ],
+      "button_link": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      },
+      "button_label": "older",
+      "main_image": {
+        "dimensions": {
+          "width": 1200,
+          "height": 1200
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b",
+        "Responsive": {
+          "dimensions": {
+            "width": 600,
+            "height": 500
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1493119508027-2b584f234d6c"
+        }
+      },
+      "social_handle": "drew"
+    },
+    "slice_type": "image_and_text"
+  },
+  {
+    "variation": "textRight",
+    "version": "sktwi1xtmkfgx8626",
+    "items": [
+      {}
+    ],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Process",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Aliquip quis quis culpa laborum irure fugiat reprehenderit et nostrud anim nostrud duis do.",
+          "spans": []
+        }
+      ],
+      "button_link": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      },
+      "button_label": "said",
+      "main_image": {
+        "dimensions": {
+          "width": 1200,
+          "height": 1200
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9",
+        "Responsive": {
+          "dimensions": {
+            "width": 600,
+            "height": 500
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1547082299-de196ea013d6"
+        }
+      },
+      "select_for_variation": "1"
+    },
+    "slice_type": "image_and_text"
+  }
+]

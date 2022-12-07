@@ -1,0 +1,44 @@
+[
+  {
+    "variation": "default",
+    "version": "sktwi1xtmkfgx8626",
+    "items": [
+      {}
+    ],
+    "primary": {
+      "title": [
+        {
+          "type": "paragraph",
+          "text": "Exercitation culpa occaecat incididunt dolor voluptate.",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Occaecat et occaecat sint. Occaecat Lorem ea commodo et.",
+          "spans": []
+        }
+      ],
+      "image": {
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb",
+        "Mobile": {
+          "dimensions": {
+            "width": 800,
+            "height": 500
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1448932223592-d1fc686e76ea"
+        }
+      }
+    },
+    "slice_type": "my_test_slice"
+  }
+]

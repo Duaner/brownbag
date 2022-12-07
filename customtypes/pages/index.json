@@ -20,6 +20,20 @@
           "allowTargetBlank": true,
           "single": "heading1"
         }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "image_and_text": {
+              "type": "SharedSlice"
+            },
+            "my_new_slice": {
+              "type": "SharedSlice"
+            }
+          }
+        }
       }
     }
   }

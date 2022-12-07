@@ -1,9 +1,10 @@
 import * as prismic from "@prismicio/client"
 import sm from "../sm.json"
-import SliceZone from "@prismicio/react"
-import { PrismicRichText } from "@prismicio/react"
+import { PrismicRichText, SliceZone } from "@prismicio/react"
 import { createClient } from '../prismicio'
 import MainNav from "../components/main-nav"
+
+import {components} from "../slices/index"
 
 const endpoint = sm.apiEndpoint
 
@@ -13,6 +14,7 @@ export default function Page({navigation, page}){
         <div>
             <PrismicRichText field={data.my_title} />
             <MainNav Navdata={navigation} />
+            <SliceZone slices={data.slices} components={components} />
         </div>
     )
 }
