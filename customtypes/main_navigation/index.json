@@ -1,0 +1,69 @@
+{
+  "id": "main_navigation",
+  "label": "Main Navigation",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "main_nav": {
+        "type": "Group",
+        "config": {
+          "label": "Main Nav",
+          "fields": {
+            "label": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Label",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "single": "paragraph"
+              }
+            },
+            "link": {
+              "type": "Link",
+              "config": {
+                "label": "Link",
+                "placeholder": "",
+                "select": null
+              }
+            }
+          }
+        }
+      },
+      "sign_in_label": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Sign in Label",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph"
+        }
+      },
+      "sign_in_link": {
+        "type": "Link",
+        "config": {
+          "label": "Sign In Link",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "sign_up_label": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Sign UP Label",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "sign_up_link": {
+        "type": "Link",
+        "config": {
+          "label": "Sign Up Link",
+          "placeholder": "",
+          "select": null
+        }
+      }
+    }
+  }
+}

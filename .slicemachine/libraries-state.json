@@ -1,0 +1,178 @@
+{
+  "slices": {
+    "components": {
+      "demo_mock_siice": {
+        "library": "slices",
+        "id": "demo_mock_siice",
+        "name": "DemoMockSiice",
+        "description": "DemoMockSiice",
+        "model": {
+          "id": "demo_mock_siice",
+          "type": "SharedSlice",
+          "name": "DemoMockSiice",
+          "description": "DemoMockSiice",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "DemoMockSiice",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                },
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Image",
+                    "constraint": {
+                      "width": 500,
+                      "height": 400
+                    },
+                    "thumbnails": []
+                  }
+                },
+                "colorbg": {
+                  "type": "Color",
+                  "config": {
+                    "label": "colorbg",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Silent",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Elit ipsum in excepteur laboris elit et est do. Velit duis nulla consequat velit ad dolor anim proident dolore sunt excepteur laborum culpa ea. Magna quis proident veniam quis.",
+                  "spans": []
+                }
+              ],
+              "image": {
+                "dimensions": {
+                  "width": 500,
+                  "height": 400
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=500&h=400"
+              },
+              "colorbg": "#37d67a"
+            },
+            "slice_type": "demo_mock_siice"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "my_new_slice": {
+        "library": "slices",
+        "id": "my_new_slice",
+        "name": "MyNewSlice",
+        "description": "MyNewSlice",
+        "model": {
+          "id": "my_new_slice",
+          "type": "SharedSlice",
+          "name": "MyNewSlice",
+          "description": "MyNewSlice",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "MyNewSlice",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Outer",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Amet esse laborum nostrud dolor deserunt enim aute sunt officia cillum deserunt occaecat et laboris occaecat. Anim duis magna exercitation laborum enim mollit nulla eu ea. Pariatur adipisicing exercitation laborum Lorem ut pariatur eu et cillum.",
+                  "spans": []
+                }
+              ]
+            },
+            "slice_type": "my_new_slice"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      }
+    }
+  }
+}

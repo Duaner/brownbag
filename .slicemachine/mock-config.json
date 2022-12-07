@@ -1,0 +1,95 @@
+{
+  "_cts": {
+    "pages": {
+      "my_title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      }
+    },
+    "main_navigation": {
+      "main_nav": {
+        "label": {
+          "config": {
+            "patternType": "PARAGRAPH",
+            "blocks": 1
+          }
+        }
+      },
+      "sign_in_label": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    }
+  },
+  "slices": {
+    "MyNewSlice": {},
+    "SliceDemo": {
+      "default": {
+        "primary": {
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "DemoMockSlice": {},
+    "DemoMockSiice": {
+      "default": {
+        "primary": {
+          "colorbg": {
+            "content": "#37d67a"
+          },
+          "image": {
+            "content": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6"
+          }
+        }
+      }
+    },
+    "ImageAndText": {
+      "default": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      },
+      "textRight": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "MyTestSlice": {
+      "default": {
+        "primary": {}
+      }
+    }
+  }
+}
